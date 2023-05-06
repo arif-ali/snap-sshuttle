@@ -1,22 +1,20 @@
 <h1 align="center">
-  <img src="https://avatars1.githubusercontent.com/u/29598503?v=3&s=256" alt="[Project]">
+  <img src="https://avatars1.githubusercontent.com/u/29598503?v=3&s=256" alt="sshuttle">
   <br />
-  [Project]
+  sshuttle
 </h1>
 
-<p align="center"><b>This is the snap for [Project]</b>, <i>“Single-line elevator pitch for your amazing snap”</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
+<p align="center"><b>This is the snap for sshuttle</b>, <i>“Single-line elevator pitch for your amazing snap”</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
-<!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
-<a href="https://snapcraft.io/my-snap-name">
-  <img alt="enpass" src="https://snapcraft.io/my-snap-name/badge.svg" />
+<a href="https://snapcraft.io/sshuttle">
+  <img alt="enpass" src="https://snapcraft.io/sshuttle/badge.svg" />
 </a>
-<a href="https://snapcraft.io/my-snap-name">
-  <img alt="enpass" src="https://snapcraft.io/my-snap-name/trending.svg?name=0" />
+<a href="https://snapcraft.io/sshuttle">
+  <img alt="enpass" src="https://snapcraft.io/sshuttle/trending.svg?name=0" />
 </a>
 </p>
--->
 
 <!-- Uncomment and modify this when you have a screenshot
 ![my-snap-name](screenshot.png?raw=true "my-snap-name")
@@ -26,11 +24,9 @@ distributions.</p>
 
 ## Install
 
-    sudo snap install my-snap-name
+    sudo snap install sshuttle
 
-<!-- Uncomment and modify this when your snap is available on the store
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/my-snap-name)
--->
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/sshuttle)
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
@@ -42,16 +38,16 @@ distributions.</p>
 Snapcrafters ([join us](https://forum.snapcraft.io/t/snapcrafters-reboot/24625)) are working to land snap install documentation and the [snapcraft.yaml](https://github.com/snapcrafters/fork-and-rename-me/blob/master/snap/snapcraft.yaml) upstream so [Project] can authoritatively publish future releases.
 
   - [x] Click the green "Use this template" button above to create a new repository based on this template
-  - [ ] Give the newly created repository a sensible name, like `godzilla` if you're snapping the Godzilla software (*Note: Do not use `snap` in this name.*)
+  - [x] Give the newly created repository a sensible name, like `godzilla` if you're snapping the Godzilla software (*Note: Do not use `snap` in this name.*)
   - [ ] Update the description of the repository to `Unofficial snap for [Project]`
   - [ ] Update logos and references to `[Project]` and `[my-snap-name]`
-  - [ ] Create a snap that runs in `devmode`
-  - [ ] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
-  - [ ] Register the snap in the store, **using the preferred upstream name**
+  - [x] Create a snap that runs in `devmode`
+  - [x] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
+  - [x] Register the snap in the store, **using the preferred upstream name**
   - [ ] Add a screenshot to this `README.md`
   - [ ] Add install instructions to this `README.md`
   - [ ] Update snap store metadata, icons and screenshots
-  - [ ] Publish the confined snap in the Snap store beta channel
+  - [x] Publish the confined snap in the Snap store beta channel
   - [ ] Update the install instructions in this `README.md`
   - [ ] Post a call for testing in the Snapcraft Forum ["Snapcrafters" category](https://forum.snapcraft.io/c/snapcrafters/23) - [link]()
   - [ ] Add the Snapcraft store account (snap-advocacy@canonical.com) as a collaborator to your snap in the [Dashboard](https://dashboard.snapcraft.io) and ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to accept this request

@@ -1,0 +1,27 @@
+diff --git a/sshuttle/hostwatch.py b/sshuttle/hostwatch.py
+index 35ab2cc..a3d18c1 100644
+--- a/sshuttle/hostwatch.py
++++ b/sshuttle/hostwatch.py
+@@ -153,7 +153,7 @@ def _check_dns(hostname):
+ 
+ def _check_netstat():
+     debug2(' > netstat')
+-    argv = ['netstat', '-n']
++    argv = ['/bin/netstat', '-n']
+     try:
+         p = ssubprocess.Popen(argv, stdout=ssubprocess.PIPE, stderr=null,
+                               env=get_env())
+diff --git a/sshuttle/server.py b/sshuttle/server.py
+index 5aff908..fda8c56 100644
+--- a/sshuttle/server.py
++++ b/sshuttle/server.py
+@@ -103,7 +103,7 @@ def list_routes():
+     if which('ip'):
+         routes = _list_routes(['ip', 'route'], _route_iproute)
+     elif which('netstat'):
+-        routes = _list_routes(['netstat', '-rn'], _route_netstat)
++        routes = _list_routes(['/bin/netstat', '-rn'], _route_netstat)
+     else:
+         log('WARNING: Neither "ip" nor "netstat" were found on the server. '
+             '--auto-nets feature will not work.')
+
