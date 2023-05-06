@@ -4,16 +4,16 @@
   sshuttle
 </h1>
 
-<p align="center"><b>This is the snap for sshuttle</b>, <i>“Single-line elevator pitch for your amazing snap”</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
+<p align="center"><b>This is the snap for sshuttle</b>, <i>“where transparent proxy meets VPN meets ssh”</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
 <p align="center">
-<a href="https://snapcraft.io/sshuttle">
-  <img alt="enpass" src="https://snapcraft.io/sshuttle/badge.svg" />
-</a>
-<a href="https://snapcraft.io/sshuttle">
-  <img alt="enpass" src="https://snapcraft.io/sshuttle/trending.svg?name=0" />
-</a>
+  <a href="https://snapcraft.io/sshuttle">
+    <img alt="sshuttle" src="https://snapcraft.io/sshuttle/badge.svg" />
+  </a>
+  <a href="https://snapcraft.io/sshuttle">
+    <img alt="sshuttle" src="https://snapcraft.io/sshuttle/trending.svg?name=0" />
+  </a>
 </p>
 
 <!-- Uncomment and modify this when you have a screenshot
@@ -39,7 +39,7 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/snapcrafters-reboot/24625))
 
   - [x] Click the green "Use this template" button above to create a new repository based on this template
   - [x] Give the newly created repository a sensible name, like `godzilla` if you're snapping the Godzilla software (*Note: Do not use `snap` in this name.*)
-  - [ ] Update the description of the repository to `Unofficial snap for [Project]`
+  - [x] Update the description of the repository to `Unofficial snap for [Project]`
   - [ ] Update logos and references to `[Project]` and `[my-snap-name]`
   - [x] Create a snap that runs in `devmode`
   - [x] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
